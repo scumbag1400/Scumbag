@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const {
 	prefix,$
-	token,rhhRPbz82eyDbiIJRly4mbeORtN1Fz7q
+	token,pnPJ8BCcj5lCNHtFFqm6ThV4evsZnqTs
 } = require('./config.json');
 const ytdl = require('ytdl-core');
 
@@ -121,4 +121,4 @@ function play(guild, song) {
 	dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);
 }
 
-client.login(process.env.BOT_TOKEN);NjE1MDI2MTA1Nzg2Njk1NzA5.XWLEhQ.biVz3X35PhpdCRocim6pmAD0sUE
+client.login(process.env.BOT_TOKEN);pnPJ8BCcj5lCNHtFFqm6ThV4evsZnqTs
